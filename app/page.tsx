@@ -3,6 +3,7 @@ import About from '../components/About/page'
 import Experiences from '../components/Experiences/page'
 import Header from '../components/Header/page'
 import Hero from '../components/Hero/page'
+import Skills from '../components/Skills/page'
 
 const HomePage = () => {
 	return (
@@ -23,7 +24,6 @@ const HomePage = () => {
 				<About />
 			</section>
 
-			{/* Experience */}
 			<section
 				id='experience'
 				className='snap-center'
@@ -32,6 +32,13 @@ const HomePage = () => {
 			</section>
 
 			{/* Skills */}
+
+			<section
+				id='skills'
+				className='snap-start'
+			>
+				<Skills />
+			</section>
 
 			{/* Projects */}
 
